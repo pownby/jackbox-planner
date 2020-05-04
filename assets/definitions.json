@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Party Pack 1",
+    "games": [
+      {
+        "name": "You don't know Jack 2015",
+        "min": 1,
+        "max": 4,
+        "rating": 2,
+        "comments": "Not recomended if any players are remote",
+        "description": "Based on the standard format for You Don't Know Jack games, four players are tasked to answer multiple choice trivia questions presented obscurely in the game's \"high culture meets pop culture\" format. Players score points in the form of money for answering correctly and in a shorter amount of time and lose money for wrong answers. Multiplayer games also feature \"screws,\" where one player can force another player to answer immediately and can earn a bonus if the \"screwed\" player answers incorrectly. The winner is the player with the most money at the end of the game."
+      },
+      {
+        "name": "Drawful",
+        "min": 3,
+        "max": 8,
+        "rating": 4,
+        "description": "Drawful is a drawing game. Each round starts with each player individually given a playful phrase and a drawing canvas on their local device. They have a short amount of time to draw out that phrase. Following this, each picture is presented to all players, and the other players must enter a phrase they think the picture represents. Then, all those replies, along with the actual phrase for that picture, are presented to the players to make their vote of what they think the original phrase was. The artist of the picture gets points for every vote that guessed their original phrase, while those who wrote other phrases get points for votes their phrase gets."
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 2",
+    "games": [
+      {
+        "name": "Fibbage 2",
+        "min": 2,
+        "max": 8,
+        "rating": 3,
+        "description": "Fibbage 2 offers new sets of questions, and incorporates the ability for the audience to vote on answers which can provide an extra scoring boost to the players. A new option called the Defibrillator permit to players to delete all lies except one and the truth of the selection for one question."
+      },
+      {
+        "name": "Earwax",
+        "min": 3,
+        "max": 8,
+        "rating": 3,
+        "comments": "A bit irreverent, which can be fun with the right crowd.",
+        "description": "Earwax is played by 3-8 players. One player is selected as the judge and are given a choice of two categories. The category is presented to the other players, and these players are each given six random sound effects. Each player then selects two of the sound effects, in order, as a reply to the category. The judge player selects which combined sounds make the most humorous or fitting answer, and that selected player wins a point. The first player to three points wins the game."
+      }
+    ]
+  }
+]
