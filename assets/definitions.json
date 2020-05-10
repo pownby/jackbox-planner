@@ -16,6 +16,26 @@
         "max": 8,
         "rating": 4,
         "description": "Drawful is a drawing game. Each round starts with each player individually given a playful phrase and a drawing canvas on their local device. They have a short amount of time to draw out that phrase. Following this, each picture is presented to all players, and the other players must enter a phrase they think the picture represents. Then, all those replies, along with the actual phrase for that picture, are presented to the players to make their vote of what they think the original phrase was. The artist of the picture gets points for every vote that guessed their original phrase, while those who wrote other phrases get points for votes their phrase gets."
+      },
+      {
+        "name": "Word Spud",
+        "min": 2,
+        "max": 8,
+        "description": "Word Spud is a word association game. A word is presented and one player, at a time, comes up with a word that is associated with it. The remaining players vote if the association is good or not. From there, the next player starts from the new word to come up with a new association, and the game continues. The player with the most votes for their associations wins."
+      },
+      {
+        "name": "Lie Swatter",
+        "min": 1,
+        "max": 100,
+        "rating": 2,
+        "description": "A multiplayer version of the single-player mobile app that Jackbox Games released earlier, Lie Swatter challenges up to 100 players to correctly guess if presented trivia statements are true or not, \"swatting\" those that are false. Players earn points for correct answers and lose points for incorrect ones."
+      },
+      {
+        "name": "Fibbage XL",
+        "min": 2,
+        "max": 8,
+        "rating": 3,
+        "description": "Fibbage XL expands on the original Fibbage with more potential questions. Each round of the game, a player selects from one of five random categories, and an obscure fact is presented to all players with a missing word or phrase to complete it. Each player uses their local device to enter a reply for those missing words; if they enter the actual right answer, they are asked to enter something different. Then, the game presents all replies, including the correct one, to the players, who then select what they think is the right answer. Players score points for selecting the right answer, but can also score if other players select their reply, so players are encouraged to provide seemingly correct answers for their replies. The player with the most points at the end of all rounds is the winner."
       }
     ]
   },
@@ -36,6 +56,195 @@
         "rating": 3,
         "comments": "A bit irreverent, which can be fun with the right crowd.",
         "description": "Earwax is played by 3-8 players. One player is selected as the judge and are given a choice of two categories. The category is presented to the other players, and these players are each given six random sound effects. Each player then selects two of the sound effects, in order, as a reply to the category. The judge player selects which combined sounds make the most humorous or fitting answer, and that selected player wins a point. The first player to three points wins the game."
+      },
+      {
+        "name": "Bidiots",
+        "min": 3,
+        "max": 6,
+        "rating": 3,
+        "description": "Bidiots is described as a spiritual successor to Drawful, playable by up to 6 people. At the start of the game, each player draws two simple pieces of art according to randomly selected categories, though these categories may be thematically related and result in similar visuals (for example, \"going to the beach\", \"getting a tan\", and \"sunburn\"). During the game, each player has a starting pool of in-game money which is used in an auction-style format to purchase the art. During the auction, each work is randomly assigned a secret monetary value based on the category, with those works drawn for that category having the highest value; the game will randomly send hints to players on the nature of this information. Players attempt to bid and purchase the art that matches the given category name while trying to use the auction format to goad other bidders to purchase the art they made in the wrong category. Players have \"screws\" as in You Don't Know Jack to force another player to bid, and if a player runs low on money, they can take out a predatory loan that will cost points at the end of the game. At the end of the game, the player with the most money, gained by buying low and selling high, wins."
+      },
+      {
+        "name": "Quiplash XL",
+        "min": 3,
+        "max": 8,
+        "rating": 3,
+        "description": "Quiplash had been developed as a standalone game prior to the pack, and was included in this pack's release along with previous DLC (Quip Pack 1) and \"over 100 brand new prompts\". In the game's first two rounds, each player is given two prompts to provide an answer to; the prompts are given so that two players see each prompt. Players provide what they believe is a funny answer to each prompt. Then, all players are shown a prompt and the two answers provided. They vote for the answer they think is the best quip. Each vote gains points for the player that wrote the quip, with a possible \"quiplash\" and bonus points if they get all the votes. The final round, all players respond to the same prompt, and vote for the three best answers of those presented. The player with the most points at the end is the winner."
+      },
+      {
+        "name": "Bomb Corp",
+        "min": 1,
+        "max": 4,
+        "rating": 3,
+        "comments": "Similar to Keep Talking And Nobody Explodes",
+        "description": "Bomb Corp. has one player as an employee of a bomb factory that must deactivate inadvertently-started bombs as they come off the assembly lines, while other players are given different sets of instructions to help deactivate it. The instructions are specifically obtuse and potentially conflicting, requiring careful communication between players."
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 3",
+    "games": [
+      {
+        "name": "Quiplash 2",
+        "min": 3,
+        "max": 8,
+        "rating": 3,
+        "description": "Quiplash 2 follows from the original Quiplash, where each player attempts to complete a statement in a humorous way, and the other players vote the best answer. Quiplash 2 introduces new prompts, the ability of the hosting player to create new prompts, the ability of the host to censor players, and new final rounds that either requires players to come up with the meaning of a given acronym, complete a caption in a comic strip, or come up with something clever using a given word in a prompt, unlike the previous game's final round, medals determine the points distributed to the players."
+      },
+      {
+        "name": "Trivia Murder Party",
+        "min": 1,
+        "max": 8,
+        "rating": 5,
+        "comments": "One of our favorites, but the second version has some good improvements.",
+        "description": "Trivia Murder Party is played out in a lighthearted theme of a horror thriller (similar to the Saw franchise). Each round includes a multiple-choice trivia question, with players earning in-game money for being correct, and then a subsequent mini-game if any \"living\" player got the question wrong. These mini-games take place on \"The Killing Floor\", where the loser (or multiple losers) of the mini-game are \"killed\" off and become ghosts. Ghosts still participate through the rest of the game. The mini-games range from random luck, challenges against themselves and the other players, or psychological games like a Prisoner's dilemma choice. The audience collectively plays as a ghost. The game proceeds for at least 5 rounds, and no more than 10, until only one player remains alive; if more players are alive after 10 rounds, players subsequently spin the \"Loser Wheel\" which has a high chance of killing them, until only one player is left. The last alive player then attempts to escape by moving across a set of spaces by correctly determining if two presented terms fit into a given category, moving one space for each correct answer. After the first turn, ghosts, including the audience, also begin to answer the same question, but have three terms instead of two, offering the possibility of catching up to the lead. If they surpass the leader, they possess that body, becoming the \"living\" player. Once the \"living\" player passes a final space, the game is over."
+      },
+      {
+        "name": "Guesspionage",
+        "min": 2,
+        "max": 8,
+        "rating": 4,
+        "comments": "Pretty good pick even for the most casual players. We still want to try out the version where it polls the players.",
+        "description": "Guesspionage has each player, in turn, guess what percentage of people have a certain quality or do a certain activity, such as texting while driving. If there are more than 5 audience members, they are surveyed prior to the turns to get these percentages, otherwise earlier survey results by Jackbox Games are used. Once the current player makes their guess, the other active players can consider if they are higher or lower than the actual value, including opining if they are off by more than a certain amount. Points are scored by the current player based on how close they are (providing that they are 30% or closer to the answer), and by the other players if they guessed correctly in which direction they were off. In the final round, one question with 9 choices is given, and the players all have to pick what they think are three most popular answers, with points awarded based on the answer's popularity, the player with the most points after that wins."
+      },
+      {
+        "name": "Fakin' It",
+        "min": 3,
+        "max": 6,
+        "description": "Fakin' It is a local multiplayer game where each player has their own connected device. In each round one player is randomly selected to be the Faker, and all players except the Faker are given instructions that involve some type of physical action, such as raising a hand or making a face; the Faker is not given this information but instead must figure out from the other players what to do. Each player then attempts to guess who the Faker by their actions, with the round ending if the Faker is guessed correctly by all other players, or successfully escaping, after which points are awarded for if at least one player guesses the Faker correctly, everyone guesses correctly, and/or if the Faker escapes capture in each task out of the number allotted (3 for 4-6 players, 2 for 3 players). After the first round, players may select any action they like. The final round is always \"Text You Up\", where each player answers a number of open-ended questions, while the Faker is given different questions which can have overlapping answers with the questions given to the players (for example, the other players may be asked about a positive trait about themselves, while the Faker would be asked what traits they would look for in a companion.) The player with the most points by the end of the game wins."
+      },
+      {
+        "name": "Tee K.O.",
+        "min": 3,
+        "max": 8,
+        "rating": 3,
+        "comments": "Fun premise, but it goes on a bit long.",
+        "description": "Tee K.O. is a drawing-based game. Each player draws three images of anything they want, though the game provides suggestions to help. Then each player has a chance to enter several short sayings or slogan. Subsequently, each player is then given two or more random drawings and two or more random sayings, and selects the pair that best fits together as printed on a T-shirt. These designs are then put into a one-on-one voting battle with all other players and audience members as to determine the best-voted T-shirt design and the design that had the longest voting streak. A second round of drawing, slogan writing, pairing, and voting is performed. The winning designs from each round are then put against each other to determine the ultimate winning design. Players are able to have their designs printed to custom-print T-shirts if desired, the shirts cost $18 with free shipping in the United States."
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 4",
+    "games": [
+      {
+        "name": "Fibbage 3",
+        "min": 2,
+        "max": 8,
+        "rating": 3,
+        "description": "Fibbage 3 is the third game of the Fibbage series. The game includes new interactivity with the audience by letting them add their own lies to the selection. The game has a new separate game mode called Fibbage: Enough About You that replaces the game's traditional questions with questions relating to the players."
+      },
+      {
+        "name": "Survive the Internet",
+        "min": 3,
+        "max": 8,
+        "description": "Survive the Internet is a game of user-generated content that takes place on a fictional version of the Internet. One player receives a question that asks their opinion on a topic. Their answer is taken out of context and sent to another player, who is then told to determine what the reply was in response to as if they were on a specific site, attempting to twist the words as best they can to make the first player look bad. All players are then presented with the pairs of original replies and the guessed topic, and vote on which pairing is the most ridiculous. Each vote earns points for the second player and a smaller number for the first player that provided the reply. The player with the most points at the end is the winner, having \"survived the Internet\""
+      },
+      {
+        "name": "Monster Seeking Monster",
+        "min": 3,
+        "max": 7,
+        "rating": 4,
+        "comments": "One of the best games in terms of flavor and laughs (and that music!), but the monsters are not very balanced and we've had it crash midgame a lot. Still a good pick for players who don't care much about game balance.",
+        "description": "Monster Seeking Monster has a horror theme where each player is a disguised monster attempting to date other players. Each round, players start by sending up to four messages to other players; the audience, if participating, use mad lib-style prompts to select phrases to send. Following this, each player then selects one other player they would date based on those replies. If two players selected each other, they both earn a heart. Additional scoring bonuses and effects due to the hidden monster power are also accounted for. From the second round on, the monster form of the leading player whose monster form is yet unknown, is revealed to all. The player with the most hearts at the end wins the game, unless other special conditions are met relating to the player's monster."
+      },
+      {
+        "name": "Bracketeering",
+        "min": 3,
+        "max": 16,
+        "description": "Bracketeering is a tournament-style game for up to sixteen players, played across three rounds. In the first round, players are presented with a prompt to complete with the best or funniest answer they can. These answers are randomly placed on a tournament-style grid. The players are then given one of the tournament matchups and predict which answer will win that match up. Subsequently, each match is then presented to all players and the audience. The answer that gets the highest percentage of votes wins, with the percentage that it wins by tied to how many points those players that guessed that match correctly get. Subsequent match-ups use these best answers going forward. After the final matchup, the player that provided the winning reply gets an additional point bonus. The second round is a \"blind bracket\" where the players are presented with a prompt, but the brackets are based on a different, related prompt using those answers. The third round is a \"triple blind bracket\" where the prompt at each level of the bracket changes."
+      },
+      {
+        "name": "Civic Doodle",
+        "min": 3,
+        "max": 8,
+        "rating": 3,
+        "description": "Civic Doodle is an art game similar to Drawful and Bidiots albeit with two players drawing the same piece of art simultaneously. In each round, a start of a doodle is presented to two randomly selected players, and they have a short time to draw atop that; this is done in real time allowing the audience members to provide feedback on either drawing in the form of preselected emoji. After the timer is done, the players and audience vote for which drawing is better, with points awarded to both players based on how many votes they received, as well as an additional bonus based on the emoji votes. Subsequently, two more players then draw atop the highest-voted picture."
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 5",
+    "games": [
+      {
+        "name": "You Don't Know Jack: Full Stream",
+        "min": 1,
+        "max": 8,
+        "description": "You Don't Know Jack: Full Stream is the newest iteration of the series of the same name. The game is updated to feature similar streaming-friendly features as most other Party Pack games. This includes support for up to eight players and an audience. As the game now uses both mobile devices and computers as a controller, the text-based questions like the Gibberish Question return, new and classic question types are present."
+      },
+      {
+        "name": "Split the Room",
+        "min": 3,
+        "max": 8,
+        "rating": 5,
+        "comments": "We've seen a trend where people don't understand what's going on at first, but they pick it up quickly. Not sure if a little extra explanation is warranted for new players.",
+        "description": "Split the Room is a game hosted by an omnipresent cat, creating hypothetical situations. Each player is given a hypothetical scenario with a crucial element missing, and must fill in the blank. Then the situation is presented to the rest of the players, who must decide whether they answer 'yes' or 'no'. The player who completed the situation then receives points based on how evenly the votes were split. The final round, known as the \"Decisive Dimension\", gives prompts with two options where the first is already completed. Players complete the second answer and everyone else picks the option. Points are awarded similarly to how they are in the main round, but players can earn extra points if they can predict what a certain player chooses beforehand. The style is reminiscent of 1950s TV shows like The Twilight Zone, featuring a muted color palette and mystery elements."
+      },
+      {
+        "name": "Mad Verse City",
+        "min": 3,
+        "max": 8,
+        "rating": 4,
+        "comments": "Pretty funny outcomes, but I think some players feel too much pressure to perform.",
+        "description": "Mad Verse City has up to 8 players, as giant robots, trying to out-rap their opponents. In each round, players are given who they are trying to out-rap, and use their device to fill in various prompts given to them. The game then runs through each rap using a text-to-speech voice, and players give points to the rap that they feel is the best."
+      },
+      {
+        "name": "Zeeple Dome",
+        "min": 1,
+        "max": 6,
+        "rating": 3,
+        "comments": "Absolutely do not try with remote players. Potentially fun with all local, but we haven't had a chance to try it.",
+        "description": "In Zeeple Dome, up to six players play as contestants in an alien combat arena, the Zeeple Dome, to take down other aliens. The game is physics based, and has players slingshot their characters across the game's levels, cooperatively working together to eliminate enemies and gain power-ups for their team."
+      },
+      {
+        "name": "Patently Stupid",
+        "min": 3,
+        "max": 8,
+        "rating": 4,
+        "comments": "Fun game, but we had some prompt answers that didn't fit very well.",
+        "description": "Each game of Patently Stupid is played in two rounds. In each round, all players are given two fill-in-the-blank prompts that describe an everyday problem that may need solving. The problems are shuffled between players who solve them by drawing an invention with a title and a tagline. Players then pitch their invention, either by presenting it themselves in real life or by having the in-game hosts pitch it instead, and everyone funds the invention they like the most. If an invention surpasses the funding limit, the player who pitched the invention not only gets additional funding ($500 in round one and $1,000 in round two), but players who funded the invention get their funding back doubled (players who gave $800 to an invention get $1,600 back). In the final round, players complete the same prompt which is chosen by a random player from a selection of prompts that were not chosen the round before."
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 6",
+    "games": [
+      {
+        "name": "Trivia Murder Party 2",
+        "min": 1,
+        "max": 8,
+        "rating": 5,
+        "comments": "This is the best Jackbox game.",
+        "description": "Trivia Murder Party 2 is the sequel to Trivia Murder Party and follows a similar format. In addition to new questions, it includes new Killing Floor mini-games and special items which can help or hinder their ability to survive."
+      },
+      {
+        "name": "Role Models",
+        "min": 3,
+        "max": 6,
+        "rating": 3,
+        "comments": "Kind of weird, and wouldn't play well with any players who don't know the rest very well. Not bad though.",
+        "description": "In each game of Role Models, players vote for a category and then try to match the other players (including themselves) to one of the items from that category. Players receive points if any of their matches is the majority favorite of the group, and extra points can be won if the player marked their answer as \"99% sure\" and was correct."
+      },
+      {
+        "name": "Joke Boat",
+        "min": 3,
+        "max": 8,
+        "rating": 3,
+        "comments": "It's okay. We prefer Mad Verse City, but this is a good alternative.",
+        "description": "Joke Boat has players make jokes based on a selected list of words brainstormed by players at the start of the game. During the first two joke rounds, players are given the start of joke prompt with a missing word they select from a random selection of the brainstormed words. They then finish the joke. Pairs of jokes are given to the other players to vote for their favorite. The final round has players take an existing joke setup and try to write a better joke than the original one."
+      },
+      {
+        "name": "Dictionarium",
+        "min": 3,
+        "max": 8,
+        "description": "Dictionarium is where players create fake definitions, words, and sentences using those words. The game can either be played where the players are given a fake word as a prompt or a fake slang saying. Players create a definition and then vote on their favorite to continue. Players then create a new word as a synonym of the definition, and finally a sentence using that word."
+      },
+      {
+        "name": "Push The Button",
+        "min": 4,
+        "max": 10,
+        "rating": 3,
+        "comments": "Fun traitor game, but we haven't quite figured out the strategy. So far aliens have always won. It seems difficult for the humans since they have to be accurate and unanimous. Some of the mini games are a bit confusing.",
+        "description": "Push The Button takes place on a spaceship, where one or more of the players have been assigned as an alien and the other players, as humans, must eject the aliens before a timer runs out. Each round, one player determines an activity on the ship (such as drawing or writing a response to a question) and selects a number of the other crew to participate. The assigned human players get one prompt, but the aliens get a different one that would likely cause some confusion. The results are shown, and players have the time to determine if any response seems suspicious. In later rounds, alien players have \"hacks\" they can use to either get the correct human prompt or send the alien prompt instead to a human player. At any time before the timer runs down, a player can \"push the button\" and select the other player(s) they believe are an alien. All other players then vote if they agree or not. In order for the players to be ejected, a unanimous vote must be passed. If any player votes \"No\", the game continues. Otherwise, the game reveals if the players were correct or incorrect, with the aliens winning if one of three conditions have been fulfilled: 1. The timer runs out, 2. all human players have pushed the button and have not ejected anyone, or 3. any human player is ejected."
       }
     ]
   }

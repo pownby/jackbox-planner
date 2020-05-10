@@ -13,9 +13,9 @@ export default function Game({ name, min, max, rating, comments, description, co
       {!collapsed && (
         <div className="game-content">
           <div>{min} - {max} players</div>
-          <div>{rating} stars</div>
+          {rating ? <div>{rating} stars</div> : <div>Not rated</div>}
           {comments && <div>Comments: {comments}</div>}
-          <div>{description}</div>
+          <div className="game-description">{description}</div>
         </div>
       )}
     </div>
