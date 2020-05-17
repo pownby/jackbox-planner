@@ -1,6 +1,7 @@
 [
   {
     "name": "Party Pack 1",
+    "id": "1",
     "games": [
       {
         "name": "You don't know Jack 2015",
@@ -41,6 +42,7 @@
   },
   {
     "name": "Party Pack 2",
+    "id": "2",
     "games": [
       {
         "name": "Fibbage 2",
@@ -83,6 +85,7 @@
   },
   {
     "name": "Party Pack 3",
+    "id": "3",
     "games": [
       {
         "name": "Quiplash 2",
@@ -125,6 +128,7 @@
   },
   {
     "name": "Party Pack 4",
+    "id": "4",
     "games": [
       {
         "name": "Fibbage 3",
@@ -164,6 +168,7 @@
   },
   {
     "name": "Party Pack 5",
+    "id": "5",
     "games": [
       {
         "name": "You Don't Know Jack: Full Stream",
@@ -207,6 +212,7 @@
   },
   {
     "name": "Party Pack 6",
+    "id": "6",
     "games": [
       {
         "name": "Trivia Murder Party 2",

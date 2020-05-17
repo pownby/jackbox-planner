@@ -3,7 +3,7 @@ import './App.less';
 import definitions from '../assets/definitions.json';
 import Pack from './components/Pack';
 import Controls from './components/Controls';
-import Filters, { ALL_RATINGS } from './components/Filters';
+import Filters, { UNRANKED_RATINGS } from './components/Filters';
 
 import reducer, {
   TOGGLE_PACK,
@@ -27,22 +27,26 @@ function initPacks() {
   });
 }
 
-function filterGames(packs, minRating, playerCountFilter, textFilter) {
+function filterGames(packs, ratingFilter, playerCountFilter, textFilter, packFilter) {
   const upperTextFilter = textFilter.toUpperCase();
-  return packs.map(pack => {
-    return {
-      ...pack,
-      games: pack.games.filter(game => (minRating === ALL_RATINGS || game.rating >= minRating) &&
-        (!playerCountFilter || playerCountFilter <= 0 || (game.min <= playerCountFilter && game.max >= playerCountFilter)) &&
-        (!textFilter || (game.nameUpper.includes(upperTextFilter) || game.descUpper.includes(upperTextFilter)))
-      )
-    };
-  });
+  return packs
+    .filter(pack => !packFilter || packFilter.includes(pack.id))
+    .map(pack => {
+      return {
+        ...pack,
+        games: pack.games.filter(game =>
+          (!ratingFilter || ratingFilter.includes(game.rating) || (ratingFilter.includes(UNRANKED_RATINGS) && !game.rating)) &&
+          (!playerCountFilter || playerCountFilter <= 0 || (game.min <= playerCountFilter && game.max >= playerCountFilter)) &&
+          (!textFilter || (game.nameUpper.includes(upperTextFilter) || game.descUpper.includes(upperTextFilter)))
+        )
+      };
+    });
 };
 
 export default function App() {
   const [state, dispatch] = useReducer(reducer, initPacks());
-  const [ratingFilter, setRatingFilter] = useState(ALL_RATINGS);
+  const [ratingFilter, setRatingFilter] = useState();
+  const [packFilter, setPackFilter] = useState();
   const [playerCountFilter, setPlayerCountFilter] = useState();
   const [textFilter, setTextFilter] = useState('');
 
@@ -55,14 +59,23 @@ export default function App() {
   const collapseAllGames = () => dispatch({ type: COLLAPSE_ALL_GAMES });
   const expandAllGames = () => dispatch({ type: EXPAND_ALL_GAMES });
 
-  const packs = filterGames(state, ratingFilter, playerCountFilter, textFilter).map(pack => 
-    pack.games && !!pack.games.length && <Pack key={pack.name} {...pack} togglePack={togglePack} toggleGame={toggleGame} />
+  const packs = filterGames(state, ratingFilter, playerCountFilter, textFilter, packFilter).map(pack => 
+    pack.games && !!pack.games.length && <Pack key={pack.id} {...pack} togglePack={togglePack} toggleGame={toggleGame} />
   ).filter(Boolean);
 
   return (
     <div className="container">
       <a href="https://jackbox.tv" target="_blank" className="jackbox-link">Open Jackbox.tv</a>
-      <Filters changeRating={setRatingFilter} selectedRating={ratingFilter} playerCount={playerCountFilter} changePlayerCount={setPlayerCountFilter} textFilter={textFilter} setTextFilter={setTextFilter} />
+      <Filters
+        ratingFilter={ratingFilter}
+        setRatingFilter={setRatingFilter}
+        packFilter={packFilter}
+        setPackFilter={setPackFilter}
+        playerCount={playerCountFilter}
+        changePlayerCount={setPlayerCountFilter}
+        textFilter={textFilter}
+        setTextFilter={setTextFilter}
+      />
       {packs.length ? (
         <>
           <Controls
