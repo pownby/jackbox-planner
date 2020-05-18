@@ -3,7 +3,11 @@ import './App.less';
 import definitions from '../assets/definitions.json';
 import Pack from './components/Pack';
 import Controls from './components/Controls';
-import Filters, { UNRANKED_RATINGS } from './components/Filters';
+import Filters from './components/Filters';
+import filterGames from './utils/filterGames';
+import chooseRandomGame from './utils/chooseRandomGame';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import reducer, {
   TOGGLE_PACK,
@@ -27,22 +31,6 @@ function initPacks() {
   });
 }
 
-function filterGames(packs, ratingFilter, playerCountFilter, textFilter, packFilter) {
-  const upperTextFilter = textFilter.toUpperCase();
-  return packs
-    .filter(pack => !packFilter || packFilter.includes(pack.id))
-    .map(pack => {
-      return {
-        ...pack,
-        games: pack.games.filter(game =>
-          (!ratingFilter || ratingFilter.includes(game.rating) || (ratingFilter.includes(UNRANKED_RATINGS) && !game.rating)) &&
-          (!playerCountFilter || playerCountFilter <= 0 || (game.min <= playerCountFilter && game.max >= playerCountFilter)) &&
-          (!textFilter || (game.nameUpper.includes(upperTextFilter) || game.descUpper.includes(upperTextFilter)))
-        )
-      };
-    });
-};
-
 export default function App() {
   const [state, dispatch] = useReducer(reducer, initPacks());
   const [ratingFilter, setRatingFilter] = useState();
@@ -59,12 +47,21 @@ export default function App() {
   const collapseAllGames = () => dispatch({ type: COLLAPSE_ALL_GAMES });
   const expandAllGames = () => dispatch({ type: EXPAND_ALL_GAMES });
 
-  const packs = filterGames(state, ratingFilter, playerCountFilter, textFilter, packFilter).map(pack => 
-    pack.games && !!pack.games.length && <Pack key={pack.id} {...pack} togglePack={togglePack} toggleGame={toggleGame} />
-  ).filter(Boolean);
+  const filteredPacks = filterGames(state, ratingFilter, playerCountFilter, textFilter, packFilter).filter(pack => pack.games && !!pack.games.length);
+  const renderedPacks = filteredPacks.map(pack => 
+    <Pack key={pack.id} {...pack} togglePack={togglePack} toggleGame={toggleGame} />
+  );
+
+  function onChooseRandom() {
+    const choice = chooseRandomGame(filteredPacks);
+    if (choice) {
+      toast.info(`Let's play ${choice.pack.name}: \"${choice.game.name}\"!`);
+    }
+  }
 
   return (
     <div className="container">
+      <ToastContainer position="top-center" />
       <a href="https://jackbox.tv" target="_blank" className="jackbox-link">Open Jackbox.tv</a>
       <Filters
         ratingFilter={ratingFilter}
@@ -76,7 +73,7 @@ export default function App() {
         textFilter={textFilter}
         setTextFilter={setTextFilter}
       />
-      {packs.length ? (
+      {renderedPacks.length ? (
         <>
           <Controls
             collapseAll={collapseAll}
@@ -85,8 +82,9 @@ export default function App() {
             expandAllPacks={expandAllPacks}
             collapseAllGames={collapseAllGames}
             expandAllGames={expandAllGames}
+            onChooseRandom={onChooseRandom}
           />
-          {packs}
+          {renderedPacks}
         </>
       ) : (
         <div className="no-games">No games match current filters.</div>
