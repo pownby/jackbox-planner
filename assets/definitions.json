@@ -253,5 +253,95 @@
         "description": "Push The Button takes place on a spaceship, where one or more of the players have been assigned as an alien and the other players, as humans, must eject the aliens before a timer runs out. Each round, one player determines an activity on the ship (such as drawing or writing a response to a question) and selects a number of the other crew to participate. The assigned human players get one prompt, but the aliens get a different one that would likely cause some confusion. The results are shown, and players have the time to determine if any response seems suspicious. In later rounds, alien players have \"hacks\" they can use to either get the correct human prompt or send the alien prompt instead to a human player. At any time before the timer runs down, a player can \"push the button\" and select the other player(s) they believe are an alien. All other players then vote if they agree or not. In order for the players to be ejected, a unanimous vote must be passed. If any player votes \"No\", the game continues. Otherwise, the game reveals if the players were correct or incorrect, with the aliens winning if one of three conditions have been fulfilled: 1. The timer runs out, 2. all human players have pushed the button and have not ejected anyone, or 3. any human player is ejected."
       }
     ]
+  },
+  {
+    "name": "Party Pack 7",
+    "id": "7",
+    "games": [
+      {
+        "name": "Quiplash 3",
+        "min": 3,
+        "max": 8,
+        "rating": 4,
+        "comments": "Good for a Quiplash-appropriate group.",
+        "description": "It is the third game in the Quiplash series and has the game's signature final round, \"The Last Lash\", replaced with the \"Thriplash\", where instead of all players answering the same prompt, each pair of players only receives one prompt instead of the usual two, but must answer with three separate responses. (The host will play with a random player if there is an odd number of players in the game.) The game's two-dimensional style art has also been replaced by clay animation."
+      },
+      {
+        "name": "The Devils and the Details",
+        "min": 3,
+        "max": 8,
+        "rating": 2,
+        "comments": "Not that fun. Lots of small tasks like Among Us, without the excitement.",
+        "description": " Players become a family of devils, trying to work together to complete a list of mundane chores in certain scenarios (e.g. while a relative is visiting) with each successful task scoring points towards a net score during one of the three days of an episode. Many chores require verbal communication from one player to another to complete which can create confusion. As the players are devils, they are competing against each other. They can complete \"selfish\" chores, which provide extra points to the player who completed them but also build the selfishness meter, so the other players have to stop that player from doing the selfish chores. When the selfishness meter is full, it creates a family emergency (e.g. a flooded basement, a burning kitchen or a power outage), lowering the total score bar and making it harder to successfully finish a single day. If a day ends with the family score bar that reached the target score, the game proceeds to the next day. If the game ends when the family score bar doesn't reach the target score on either the first or second days, then the VIP player will have to either retry the day or quit the game after the unsuccessful day. The third day however is a challenge. If the day ends with the family score bar not reaching the target score, the episode will be over with just the final scores and some tasks completed (there is no retrying on this day). If the day ends with all of the tasks completed and the family score bar reaching the target score, then the winner will get a prize after the game."
+      },
+      {
+        "name": "Champ'd Up",
+        "min": 3,
+        "max": 8,
+        "rating": 3,
+        "comments": "It's an okay drawing game. Not fair, but simple.",
+        "description": "Players start by creating their own champions and challengers via a drawing interface with unusual monikers and skills, similar to Tee K.O.'s T-shirts. The players' creations are then pitted against each other with players and the audience votes for the best one in each round based on how fitting a character is for the given category. In-game money is gained by the percentage of votes between the players that made their champions/challengers and a \"Champ'd Up\" cash bonus is rewarded if they get all votes. The player with the most money at the end wins. There is also a card game called Champ'd Up: Slam Down, which is available to purchase after the game."
+      },
+      {
+        "name": "Talking Points",
+        "min": 3,
+        "max": 8,
+        "description": "Each person starts by creating three speech titles and then choosing one of the three on their devices. Then, one person, as a presenter, is shown a series of text and picture slides which they are seeing for the first time, and has to use their own voice to talk through these to impress the audience, which votes with their reactions. The other people in the game act as assistants to the presenter to select the next slide that the presenter will see from a random selection, which could either help or throw off the presenter. Points are rewarded to the presenter based on how many times the audience reacted and the graph and to the assistant. The players can also write a comment about the presentation. Then all players name the award they will give out. The player with the most points at the end wins. The game also has a free play game mode."
+      },
+      {
+        "name": "Blather 'Round",
+        "min": 2,
+        "max": 6,
+        "rating": 5,
+        "comments": "This one is quite fun and the star of the pack. The lower player count is the big drawback.",
+        "description": "The game's style is very similar to Charades, where players have to pick a place, story, thing, or person to describe using sentences. While one player gives hints to what they have chosen with fixed sentences, the other players must try to guess what the presenter is describing. Points are awarded to the presenter and whomever correctly guesses what word they chose, as well as those who contributed a helpful hint. The player with the most points at the end wins."
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 8",
+    "id": "8",
+    "games": [
+      {
+        "name": "Drawful: Animate",
+        "min": 3,
+        "max": 10,
+        "rating": 4,
+        "comments": "Fun drawing game that creates a lot of laughs.",
+        "description": "The highlight feature is that players create a two-frame animation rather than a single static drawing. Other added features include having three colors to use for drawing and the ability to double down on a guess once per round which awards double points if correct, but if incorrect, awards the player who wrote the fake answer double points instead. A 'friend mode' is also included which has the prompts be about the players."
+      },
+      {
+        "name": "The Wheel of Enormous Proportions",
+        "min": 2,
+        "max": 8,
+        "rating": 2,
+        "comments": "We did a trial run and really didn't get it. Not interesting and the jokes were dull. Only reason to play this is if you've played enough Murder Mystery Trivia but still want more trivia.",
+        "description": "  At the start of the game, players write a soul-seeking question for the wheel to answer. Players then must earn slices by competing in a trivia round of three questions, each starting with two slices. High scoring players win a slice, with the top scorer winning an extra one. Question types include: selecting answers from a set of twelve, matching answers with their counterpart, guessing what the wheel is thinking based on given clues, writing answers or giving a numerical estimate. On the third question, the top-performing player wins a power slice that can spread across the wheel and when landed on allows them to play a minigame that can impact the scores such as swapping points between two players. During the spinning round, players place their slices onto the wheel and take turns spinning it, earning points when the wheel lands on a slot they picked. The number of points gained increases as the wheel is spun more and points are divided between players who picked the same slot. The spinning round ends when a Spin Meter fills up, and a new trivia round begins. Once a player reaches 20,000 points, any points that player gains from the wheel allows them to spin the Winner Wheel that determines them as the game's winner. The wheel then answers the question the winner wrote at the start of the game."
+      },
+      {
+        "name": "Job Job",
+        "min": 3,
+        "max": 10,
+        "rating": 3,
+        "comments": "Has potential for laughs, but if some players don't write much then it becomes predictable and frustrating. Probably good for some groups.",
+        "description": " At the beginning of each round, players answer a number of icebreaker questions in any way they want. Afterwards, all of the responses are shuffled between players where the goal is to answer job interview questions using only words from the icebreaker responses and the question itself. The interview question and the two provided responses are then pitted up and players and the audience vote on their favorite answer. Points are gained via a percentage of votes between the two players, and bonus points are awarded to players whose words were used in a winning answer or if their winning response contains words from three different players. In the final round, instead of interview questions, players create short responses about themselves by answering the same two statements. The player with the most points at the end wins."
+      },
+      {
+        "name": "The Poll Mine",
+        "min": 2,
+        "max": 10,
+        "rating": 4,
+        "comments": "Can be a bit awkward if one team is mostly non-participants, but overall we've had some good times with it.",
+        "description": "Players are split into two teams of adventurers trapped in a cave by an evil witch. To escape, all players answer an opinion-based poll of eight options in order of preference. Afterwards, each team takes turns opening one from a set of doors, each marked by an answer from the poll. The first round has the teams find the top three most popular answers, while the second has them find the 2nd, 3rd and 4th most popular answers. Each correct answer earns a team a torch, but an incorrect answer causes them to lose a torch. During the final round, the players must open doors from least to most popular. During this round, no torches are gained, but existing torches are still lost from picking an incorrect door. When a team loses their last torch, the other team must pick the correct door to eliminate them and win the game. When everyone correctly opens all doors, the team with the most torches remaining wins. However, if both teams lose all of their torches, it is \"game over\" for everyone. The game also has a streamer mode where one team consist of the players and the other consisting of the audience who pick a door by majority vote."
+      },
+      {
+        "name": "Weapons Drawn",
+        "min": 4,
+        "max": 8,
+        "rating": 3,
+        "comments": "Charming idea, but it goes on a bit too long.",
+        "description": "Everyone plays the role of a group of detectives and murderers attending a party. Players draw two murder weapons containing a letter from their name they must hide and name an accomplice to bring as their guest. Players then attempt to murder accomplices by figuring out whoever they think invited them as a guest. If successful, one of the culprit's murder weapons is left at the scene. For reference, the game reveals one weapon drawn by each player. Players vote between two cases to solve and attempt to work together to analyse the murder weapon and vote for who they think committed the crime. During the final round, players in rapid succession, guess every remaining unsolved murder, the murderer gaining points for every detective they fool. Points are given by inviting accomplices that receive a high number of murder attempts, successfully evading being deduced as the culprit and correctly finding the culprits of other murders. The player with the most points at the end wins."
+      }
+    ]
   }
 ]
