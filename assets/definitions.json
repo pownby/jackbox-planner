@@ -343,5 +343,50 @@
         "description": "Everyone plays the role of a group of detectives and murderers attending a party. Players draw two murder weapons containing a letter from their name they must hide and name an accomplice to bring as their guest. Players then attempt to murder accomplices by figuring out whoever they think invited them as a guest. If successful, one of the culprit's murder weapons is left at the scene. For reference, the game reveals one weapon drawn by each player. Players vote between two cases to solve and attempt to work together to analyse the murder weapon and vote for who they think committed the crime. During the final round, players in rapid succession, guess every remaining unsolved murder, the murderer gaining points for every detective they fool. Points are given by inviting accomplices that receive a high number of murder attempts, successfully evading being deduced as the culprit and correctly finding the culprits of other murders. The player with the most points at the end wins."
       }
     ]
+  },
+  {
+    "name": "Party Pack 9",
+    "id": "9",
+    "games": [
+      {
+        "name": "Fibbage 4",
+        "min": 2,
+        "max": 8,
+        "rating": [{ "name": "LP", "value": 3.5 }, { "name": "AE", "value": 4 }],
+        "comments": "Just like other Fibbage but has a video question and a 2fer question.",
+        "description": "The game includes new themed episodes, new Final Fibbage rounds with two facts and questions provided by fans of Jackbox Games solicited ahead of the game's release."
+      },
+      {
+        "name": "Roomerang",
+        "min": 4,
+        "max": 9,
+        "comments": "We haven't played yet. It seems like it could be good, but you need a particular set of players.",
+        "description": "Players take on roles as characters with a defining trait, and are to give responses that fit that trait as well as working with the traits of other characters. The player with the highest voted response wins the round and an advantage in the following elimination. Eliminated players lose some points but are brought back into the game with a new trait. The player with the most points after five rounds wins."
+      },
+      {
+        "name": "Junktopia",
+        "min": 3,
+        "max": 8,
+        "rating": [{ "name": "LP", "value": 2 }, { "name": "AE", "value": 2 }],
+        "comments": "No incentive to buy expensive things and money element didn't seem to work, more fun with more people but would be too long, JUNK",
+        "description": "Players select one item of interest from three random items buy that item with money given to them at the beginning. The players can attempt to haggle but this can backfire and cause them to pay more than the original price. They then have to give a fake name and history to these objects and then try to sell it to the other players verbally for the most money compared to other players' items."
+      },
+      {
+        "name": "Nonsensory",
+        "min": 3,
+        "max": 8,
+        "rating": 3,
+        "comments": "Has potential to be good, but we had a number of mistakes from players not understanding the prompt. Also seems like a wide array of difficulty depending on if you are drawing an extreme (1 or 10) versus a middling 5 or 6.",
+        "description": "A silly, laid-back writing, drawing and guessing game. The players must guess what is the percentage or on a scale of 1 to 10 how a text-based response or drawing made by another player is based on the prompt given. The players get points relative to how close to the answer they get."
+      },
+      {
+        "name": "Quixort",
+        "min": 1,
+        "max": 10,
+        "rating": [{ "name": "LP", "value": 3 }],
+        "comments": "The slowest quick thinking game ever. I don't think you have to be familiar with the prompts, but it's not very fun if you don't have a point of reference. Would be interesting to try with more people, but don't think it would work well remotely.",
+        "description": "Presents players with a prompt that players will be sorting answers under, such as \"animals by number of legs\". The answers are then presented as falling blocks which the players must then try to place in the proper order. The game is played in teams, but a separate game within the Party Pack, Quixort Forever, allows a single player or a single team try to proceed as far as possible."
+      }
+    ]
   }
 ]
