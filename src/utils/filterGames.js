@@ -8,7 +8,7 @@ export default function filterGames(packs, ratingFilter, playerCountFilter, text
       return {
         ...pack,
         games: pack.games.filter(game =>
-          (!ratingFilter || ratingFilter.includes(game.rating) || (ratingFilter.includes(UNRANKED_RATINGS) && !game.rating)) &&
+          (!ratingFilter || ratingFilter.includes(game.ratingFloor) || (ratingFilter.includes(UNRANKED_RATINGS) && !game.rating)) &&
           (!playerCountFilter || playerCountFilter <= 0 || (game.min <= playerCountFilter && game.max >= playerCountFilter)) &&
           (!textFilter || (game.nameUpper.includes(upperTextFilter) || game.descUpper.includes(upperTextFilter)))
         )

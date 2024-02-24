@@ -1,6 +1,5 @@
 import React, { useReducer, useState } from "react";
 import "./App.less";
-import definitions from "../assets/definitions.json";
 import Pack from "./components/Pack";
 import Controls from "./components/Controls";
 import Filters from "./components/Filters";
@@ -8,6 +7,7 @@ import filterGames from "./utils/filterGames";
 import chooseRandomGame from "./utils/chooseRandomGame";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import initPacks from "./initPacks";
 
 import reducer, {
   TOGGLE_PACK,
@@ -19,23 +19,6 @@ import reducer, {
   COLLAPSE_ALL_GAMES,
   EXPAND_ALL_GAMES,
 } from "./reducer";
-
-function initPacks() {
-  return definitions.map((pack) => {
-    return {
-      ...pack,
-      games: pack.games.map((game) => {
-        return {
-          ...game,
-          collapsed: true,
-          nameUpper: game.name.toUpperCase(),
-          descUpper: game.description.toUpperCase(),
-          rating: Math.floor(Array.isArray(game.rating) ? game.rating[0].value : game.rating)
-        };
-      }),
-    };
-  });
-}
 
 export default function App() {
   const [state, dispatch] = useReducer(reducer, initPacks());
